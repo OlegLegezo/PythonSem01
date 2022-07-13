@@ -8,8 +8,8 @@ if a < 0:
 elif a == 0:
     print(f'факториал 0 равен 1')
 else:
-    b=int(1)
-    while a>0:
+    b = int(1)
+    while a > 0:
         b = b*(a)
-        a=a-1        
+        a = a-1
 print(f'факториал равен {b}')
